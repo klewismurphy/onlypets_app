@@ -1,0 +1,8 @@
+@pets.map do |pet|
+  {
+    id: pet.id,
+    name: pet.name,
+    genre: pet.genre,
+    description: pet.description,
+  }
+end
